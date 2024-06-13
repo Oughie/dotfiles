@@ -1,8 +1,6 @@
-
 * {
 	bg: #11121D;
 	bg-alt: #6b4559;
-
 	fg: #FFFFFF;
 	fg-alt: #787c99;
 
@@ -14,7 +12,7 @@
 }
 
 window {
-	width: 45%;
+	width: 30%;
 }
 
 element {
@@ -49,7 +47,6 @@ inputbar {
 
 listview {
 	background-color: @bg;
-	columns: 2;
 	lines: 5;
 }
 
@@ -61,10 +58,7 @@ mainbox {
 prompt {
 	font-size: 16;
 	background-color: @bg;
-	enabled: true;
 	padding: 20 10 20 10;
 	text-color: @fg;
+	enabled: true;
 }
-
-
-
