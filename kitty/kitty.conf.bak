@@ -1,4 +1,2 @@
-# BEGIN_KITTY_THEME
-# Catppuccin-Frappe
 include current-theme.conf
-# END_KITTY_THEME
+font_family FiraMono Nerd Font Mono Regular
