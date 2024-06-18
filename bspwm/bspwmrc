@@ -15,5 +15,13 @@ sxhkd &
 picom --config $HOME/.config/picom/picom.conf &
 nitrogen --restore &
 dunst &
-polybar &
 
+polybar distro &
+polybar workspaces &
+polybar tray &
+polybar date &
+polybar hardware &
+polybar power &
+
+bspc rule -a firefox desktop=^2 follow=off
+bspc rule -a discord desktop=^3 follow=off
