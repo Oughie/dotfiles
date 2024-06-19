@@ -22,6 +22,3 @@ polybar tray &
 polybar date &
 polybar hardware &
 polybar power &
-
-bspc rule -a firefox desktop=^2 follow=off
-bspc rule -a discord desktop=^3 follow=off

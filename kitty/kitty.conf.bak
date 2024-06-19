@@ -1,2 +1,8 @@
 include current-theme.conf
 font_family FiraMono Nerd Font Mono Regular
+
+
+# BEGIN_KITTY_THEME
+# 3024 Night
+include current-theme.conf
+# END_KITTY_THEME

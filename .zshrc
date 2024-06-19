@@ -8,4 +8,4 @@ ZSH_THEME="agnoster"
 export XCURSOR_THEME="catppuccin-frappe-flamingo-cursors"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-
+alias clear="printf '\033[2J\033[3J\033[1;1H'"

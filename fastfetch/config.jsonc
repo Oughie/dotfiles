@@ -1,0 +1,93 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/arch2.png",
+  },
+  "display": {
+    "color": "magenta",
+    "separator": "  "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "System",
+    },
+    {
+      "type": "title",
+      "key": "",
+
+    },
+    {
+      "type": "os",
+      "key": "",
+    },
+    {
+      "type": "kernel",
+      "key": "",
+    },
+    {
+      "type": "packages",
+      "key": "󰏗",
+    },
+    {
+      "type": "custom",
+      "format": "───────────────────────────────────"
+    },
+    {
+      "type": "custom",
+      "format": "Hardware"
+    },
+    {
+      "type": "cpu",
+      "key": "",
+    },
+    {
+      "type": "gpu",
+      "key": "",
+    },
+    {
+      "type": "memory",
+      "key": "",
+      "format": "{/1}{-}{/}{/2}{-}{/}{} / {}"
+    },
+    {
+      "type": "disk",
+      "key": "",
+      "format": "{/1}{-}{/}{/2}{-}{/}{} / {}"
+    },
+    {
+      "type": "custom",
+      "format": "───────────────────────────────────"
+    },
+    {
+      "type": "custom",
+      "format": "Profile"
+    },
+    {
+      "type": "wm",
+      "key": "󰖯",
+    },
+    {
+      "type": "terminal",
+      "key": "",
+    },
+    {
+      "type": "shell",
+      "key": "",
+    },
+    {
+      "type": "uptime",
+      "key": "󰅐"
+    },
+    {
+      "type": "custom",
+      "format": "───────────────────────────────────"
+    },
+    {
+      "type": "custom",
+      "format": " {#90}⬤ {#90}⬤ {#31}⬤ {#31}⬤ {#32}⬤ {#32}⬤ {#33}⬤ {#33}⬤  {#34}⬤ {#34}⬤ {#35}⬤ {#35}⬤ {#36}⬤ {#36}⬤ {#37}⬤ {#37}⬤ "
+    },
+    "break"
+  ]
+}
