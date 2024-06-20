@@ -41,10 +41,12 @@
     {
       "type": "cpu",
       "key": "",
+      "format": "{}"
     },
     {
       "type": "gpu",
       "key": "",
+      "format": "{} {}"
     },
     {
       "type": "memory",
