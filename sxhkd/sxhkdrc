@@ -1,6 +1,4 @@
-#
-# BSPWM ------------------------------------------------------------------------
-#
+# bspwm
 
 # Quit / Restart 
 super + alt + {q,r}
@@ -22,9 +20,7 @@ super + y
 super + g
 	bspc node -s biggest.window
 
-#
-# State / Flags ----------------------------------------------------------------
-#
+# State / Flags
 
 # Set window state
 super + {t,shift + t,s,f}
@@ -34,9 +30,7 @@ super + {t,shift + t,s,f}
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
-#
-# Focus / Swap -----------------------------------------------------------------
-#
+# Focus / Swap
 
 # Focus node in given direction
 super + {_,shift + }{h,j,k,l}
@@ -68,29 +62,7 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#
-# Preselect --------------------------------------------------------------------
-#
-
-# Prselect direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
-
-# Preselect ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-
-# Cancel preselection for focused node
-super + ctrl + space
-	bspc node -p cancel
-
-# Cancel preselection for focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
-#
-# Move / Resize ----------------------------------------------------------------
-#
+# Move / Resize
 
 # Expand
 super + alt + {h,j,k,l}
@@ -104,13 +76,11 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#
-# Miscellaneous ----------------------------------------------------------------
-#
+# Miscellaneous
 
 # Snipping Tool
 super + shift + s
-  flameshot gui
+    flameshot gui
 
 # Lunch applications
 super + d
