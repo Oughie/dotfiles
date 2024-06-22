@@ -3,6 +3,6 @@ font_family FiraMono Nerd Font Mono Regular
 
 
 # BEGIN_KITTY_THEME
-# 3024 Night
+# Catppuccin-Frappe
 include current-theme.conf
 # END_KITTY_THEME

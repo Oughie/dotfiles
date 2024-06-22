@@ -15,7 +15,7 @@ sxhkd &
 picom --config $HOME/.config/picom/picom.conf &
 nitrogen --restore &
 dunst &
-sh ../nitrogen/slideshow.sh &
+sh $HOME/.config/nitrogen/slideshow.sh &
 
 polybar distro &
 polybar workspaces &
