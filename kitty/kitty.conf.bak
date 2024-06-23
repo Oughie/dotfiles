@@ -3,6 +3,6 @@ font_family FiraMono Nerd Font Mono Regular
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Frappe
+# Belafonte Day
 include current-theme.conf
 # END_KITTY_THEME
