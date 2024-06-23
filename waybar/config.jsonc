@@ -1,0 +1,33 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/distro", "tray"],
+	"modules-right": ["clock", "memory", "cpu", "custom/reboot", "custom/shutdown"],
+    "tray": {
+		"icon-size": 18,
+		"spacing": 10
+	},
+    "clock": {
+        "format": " {:%R}"
+    },
+    "cpu": {
+        "interval": 2,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 20,
+        "format": "  {}%",
+        "max-length": 10
+    },
+    "custom/distro": {
+        "format": "",
+    },
+    "custom/reboot": {
+        "format": "",
+        "on-click": "reboot",
+    },
+    "custom/shutdown": {
+        "format": "⏻",
+        "on-click": "shutdown now",
+    }
+}
