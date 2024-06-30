@@ -3,6 +3,6 @@ font_family FiraMono Nerd Font Mono Regular
 
 
 # BEGIN_KITTY_THEME
-# Belafonte Day
+# Tomorrow Night Blue
 include current-theme.conf
 # END_KITTY_THEME

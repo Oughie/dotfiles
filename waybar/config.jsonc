@@ -1,6 +1,6 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/distro", "tray"],
+	"modules-left": ["custom/distro", "", "tray"],
 	"modules-right": ["clock", "memory", "cpu", "custom/reboot", "custom/shutdown"],
     "tray": {
 		"icon-size": 18,
@@ -14,7 +14,11 @@
         "format": " {}%",
         "max-length": 10
     },
-    "memory": {
+   "hyprland/workspaces": {
+     "format": "{icon}",
+     "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1"
+}, "memory": {
         "interval": 20,
         "format": "  {}%",
         "max-length": 10
