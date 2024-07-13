@@ -1,0 +1,12 @@
+configuration {
+	display-drun: "Applications:";
+	display-window: "Windows:";
+    display-run: "Execute:";
+	drun-display-format: "{icon}  {name}";
+	font: "Noto Sans Medium 11";
+	modi: "window,run,drun";
+	show-icons: true;
+	icon-theme: "Breeze-Dark";
+}
+
+@theme "theme.rasi"
