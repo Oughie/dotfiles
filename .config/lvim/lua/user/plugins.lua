@@ -4,11 +4,17 @@ lvim.plugins = {
 	{ 'neovim/nvim-lspconfig' },
     { 'nvim-telescope/telescope.nvim' },
 	{ 'simrat39/rust-tools.nvim' },
-	{ 'ahmedkhalf/project.nvim' ,
+	{
+        'ahmedkhalf/project.nvim' ,
         config = function()
             require('project_nvim').setup {
 	            manual_mode = true,
             }
         end
     },
+    {
+        'L3MON4D3/LuaSnip',
+        tag = "v2.*",
+        build = "make install_jsregexp"
+    }
 }

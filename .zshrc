@@ -15,5 +15,6 @@ eval "$(zoxide init --cmd cd zsh)"
 eval $(thefuck --alias ugh)
 
 alias clear="printf '\033[2J\033[3J\033[1;1H'"
-alias todo="lvim ~/Documents/TODO.md"
+alias notes="lvim ~/Documents/NOTES.md"
 alias cat="bat"
+alias dotfiles="lvim ~/.dotfiles"

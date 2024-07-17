@@ -14,7 +14,7 @@
     progress_bar_max_width = 300
     progress_bar_corner_radius = 0
     progress_bar_corners = all
-    icon_corner_radius = 0
+    icon_corner_radius = 7
     icon_corners = all
     indicate_hidden = yes
     separator_height = 0
@@ -51,7 +51,7 @@
     always_run_script = true
     title = Dunst
     class = Dunst
-    corner_radius = 0
+    corner_radius = 15
     corners = all
     ignore_dbusclose = false
     force_xwayland = false
