@@ -1,39 +1,56 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/distro", /*"hyprland/workspaces",*/ "tray"],
+	"modules-left": ["custom/distro", "hyprland/workspaces", "tray"],
 	"modules-right": ["clock", "memory", "cpu", "custom/reboot", "custom/shutdown"],
     "hyprland/workspaces": {
         "disable-scroll": false,
         "all-outputs": true,
         "on-click": "activate",
-        "format": "{icon}"
+        "format": "{icon}",
+        "format-icons": {
+            "default": "",
+            "active": "",
+            "urgent": "󰗖",
+            "empty": "",
+        },
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+        }
     },
     "tray": {
 		"icon-size": 18,
-		"spacing": 10
+		"spacing": 10,
+        "tooltip": false,
 	},
     "clock": {
         "format": " {:%R}"
     },
     "cpu": {
-        "interval": 2,
+        "interval": 5,
         "format": " {}%",
-        "max-length": 10
+        "tooltip": false,
     },
     "memory": {
-        "interval": 20,
+        "interval": 5,
         "format": "  {}%",
-        "max-length": 10
+        "tooltip": false,
     },
     "custom/distro": {
         "format": "",
+        "tooltip": false,
     },
     "custom/reboot": {
         "format": "",
         "on-click": "reboot",
+        "tooltip": false,
     },
     "custom/shutdown": {
         "format": "⏻",
         "on-click": "shutdown now",
+        "tooltip": false,
     }
 }
