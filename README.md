@@ -1,6 +1,9 @@
 # Oughie's dotfiles
 
-Personal dotfiles for [bspwm](https://github.com/baskerville/bspwm) and [Hyprland](https://hyprland.org/) on Arch-Linux.
+Personal dotfiles for [Hyprland](https://hyprland.org/) and [bspwm](https://github.com/baskerville/bspwm) on Arch-Linux.
 
-![presentation_bspwm](screenshots/bspwm.png "Screenshot (bspwm)")
+### Hyprland:
 ![presentation_hyprland](screenshots/hyprland.png "Screenshot (hyprland)")
+
+### Bspwm:
+![presentation_bspwm](screenshots/bspwm.png "Screenshot (bspwm)")
