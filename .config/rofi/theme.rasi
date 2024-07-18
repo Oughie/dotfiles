@@ -20,6 +20,7 @@ window {
     height: 340px;
     border-color: @border-col;
     background-color: @bg-col;
+    border-radius: 20px;
 }
 
 mainbox {

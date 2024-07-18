@@ -57,6 +57,7 @@ window {
   all: initial;
   border-radius: inherit;
   background: #303446;
+  padding: 0;
 }
 
 #workspaces button.active {
