@@ -3,5 +3,5 @@
 swww-daemon &
 waybar &
 dunst &
-sh $HOME/.dotfiles/hypr/scripts/slideshow.sh &
-sh $HOME/.dotfiles/hypr/scripts/power_management.sh &
+sh $HOME/.dotfiles/.config/hypr/scripts/slideshow.sh &
+sh $HOME/.dotfiles/.config/hypr/scripts/power_management.sh &

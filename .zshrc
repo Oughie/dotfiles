@@ -17,4 +17,3 @@ eval $(thefuck --alias ugh)
 alias clear="printf '\033[2J\033[3J\033[1;1H'"
 alias notes="lvim ~/Documents/NOTES.md"
 alias cat="bat"
-alias dotfiles="lvim ~/.dotfiles"
