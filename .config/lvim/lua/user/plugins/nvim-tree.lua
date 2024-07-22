@@ -1,6 +1,6 @@
 lvim.builtin.nvimtree.setup = {
   	filters = {
-        custom = { '.git'}
+        custom = { '.git' }
     },
     update_focused_file = {
 		enable = true,

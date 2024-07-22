@@ -2,7 +2,18 @@ lvim.plugins = {
 	{ 'catppuccin/nvim' },
 	{ 'ellisonleao/gruvbox.nvim' },
 	{ 'neovim/nvim-lspconfig' },
-    { 'nvim-telescope/telescope.nvim' },
+    { 
+      'nvim-telescope/telescope.nvim',
+      config = function()
+          require('telescope').setup {
+              defaults = {
+                  file_ignore_patterns = {
+                      'Cargo.lock',
+                  }
+              }
+          }
+      end
+    },
 	{ 'simrat39/rust-tools.nvim' },
 	{
         'ahmedkhalf/project.nvim' ,

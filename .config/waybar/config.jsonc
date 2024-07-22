@@ -27,7 +27,8 @@
         "tooltip": false,
 	},
     "clock": {
-        "format": " {:%R}"
+        "format": "󰥔 {:%R}",
+        "format-alt": "󰥔 {:%A, %B %dth, %Y}"
     },
     "cpu": {
         "interval": 5,
