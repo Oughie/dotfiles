@@ -1,7 +1,8 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "~/.config/fastfetch/arch.png",
+    // "source": "~/.dotfiles/.config/fastfetch/icons/arch_catppuccin_frappe.png",
+    "source": "~/.dotfiles/.config/fastfetch/icons/arch_catppuccin_mocha.png",
   },
   "display": {
     "color": "magenta",
@@ -46,17 +47,17 @@
     {
       "type": "gpu",
       "key": " ",
-      "format": "{}"
+      "format": "{1}, {3}"
     },
     {
       "type": "memory",
       "key": " ",
-      "format": "{/1}{-}{/}{/2}{-}{/}{} / {}"
+      "format": "{1} / {2}"
     },
     {
       "type": "disk",
       "key": " ",
-      "format": "{/1}{-}{/}{/2}{-}{/}{} / {}"
+      "format": "{1} / {2}"
     },
     {
       "type": "custom",

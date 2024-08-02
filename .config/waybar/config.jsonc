@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"modules-left": ["custom/distro", "hyprland/workspaces", "tray"],
-	"modules-right": ["clock", "memory", "cpu", "custom/reboot", "custom/shutdown"],
+	"modules-right": ["clock", "pulseaudio", "memory", "cpu", "custom/reboot", "custom/shutdown"],
     "hyprland/workspaces": {
         "disable-scroll": false,
         "all-outputs": true,
@@ -26,13 +26,17 @@
 		"spacing": 10,
         "tooltip": false,
 	},
+    "pulseaudio": {
+        "format": " {volume}%",
+        "tooltip": false,
+    },
     "clock": {
         "format": "󰥔 {:%R}",
         "format-alt": "󰥔 {:%A, %B %dth, %Y}"
     },
     "cpu": {
         "interval": 5,
-        "format": " {}%",
+        "format": " {usage}%",
         "tooltip": false,
     },
     "memory": {

@@ -9,6 +9,7 @@ lvim.plugins = {
               defaults = {
                   file_ignore_patterns = {
                       'Cargo.lock',
+                      '_build'
                   }
               }
           }
@@ -27,5 +28,12 @@ lvim.plugins = {
         'L3MON4D3/LuaSnip',
         tag = "v2.*",
         build = "make install_jsregexp"
+    },
+    {
+        'saecki/crates.nvim',
+        tag = 'stable',
+        config = function()
+            require('crates').setup()
+        end,
     }
 }

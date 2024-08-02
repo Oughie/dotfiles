@@ -1,3 +1,4 @@
+require 'user.dashboard'
 require 'user.key-bindings'
 require 'user.options'
 require 'user.plugins'

@@ -5,7 +5,6 @@
     padding-right: 10px;
     padding-top: 4px;
     padding-bottom: 4px;
-    border-radius: 10px;
     font-family: "Hack Nerd Font" ;
     font-size: 18px;
 }
@@ -28,22 +27,18 @@ window {
 }
 
 
-#clock, #memory, #cpu, #tray, #custom-reboot, #custom-shutdown, #custom-distro, #workspaces {
-    color: #eebebe;
-    background: #303446;
+#pulseaudio, #clock, #memory, #cpu, #tray, #custom-reboot, #custom-shutdown, #custom-distro, #workspaces {
+    color: #f2cdcd;
+    background: #1e1e2e;
     border-radius: 10px;
 }
 
 #custom-distro {
     padding-right: 15px;
-    color: #99d1db;
+    color: #94e2d5;
 }
 
-#custom-reboot {
-    padding-right: 15px;
-}
-
-#custom-shutdown {
+#custom-reboot, #custom-shutdown {
     padding-right: 15px;
 }
 
@@ -56,18 +51,17 @@ window {
 #workspaces button {
   all: initial;
   border-radius: inherit;
-  background: #303446;
   padding: 0;
 }
 
 #workspaces button.active {
-  background: #eebebe;
+  background: #f5c2e7;
 }
 
 #workspaces button:hover {
-  background: #ea999c;
+  background: #eba0ac;
 }
 
 #workspaces button.urgent {
-  background: #e78284;
+  background: #f38ba8;
 }

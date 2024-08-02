@@ -65,7 +65,7 @@
     per_monitor_dpi = false
 
 [urgency_low]
-background = "#303446"
+background = "#ff3446"
 foreground = "#99d1db"
 
 [urgency_normal]
