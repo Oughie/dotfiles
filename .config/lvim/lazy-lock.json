@@ -11,7 +11,6 @@
   "crates.nvim": { "branch": "main", "commit": "5d2751f3d31c952663ade44669b6b63efa06e295" },
   "friendly-snippets": { "branch": "main", "commit": "3e9a3f5a0cfcef1741e352c37bda4e82e5eb846a" },
   "gitsigns.nvim": { "branch": "main", "commit": "805610a9393fa231f2c2b49cb521bfa413fadb3d" },
-  "gruvbox.nvim": { "branch": "main", "commit": "7a1b23e4edf73a39642e77508ee6b9cbb8c60f9e" },
   "indent-blankline.nvim": { "branch": "master", "commit": "9637670896b68805430e2f72cf5d16be5b97a22a" },
   "lazy.nvim": { "branch": "main", "commit": "bef521ac89c8d423f9d092e37b58e8af0c099309" },
   "lir.nvim": { "branch": "master", "commit": "7a9d45de08fecd23a04aca1f96688d744830029e" },

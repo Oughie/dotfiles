@@ -1,45 +1,69 @@
-local dashboard = require("user/ad")
-local user_config_path = "$HOME/.dotfiles/.config/lvim"
+local leader = "SPC"
 
-local header = {
-  type = "text",
-  val = {
-    [[                                                    ]],
-	[[ ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ]],
-	[[ ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║ ]],
-	[[ ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║ ]],
-	[[ ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║ ]],
-	[[ ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ]],
-	[[ ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ]],
-	[[                                                    ]],
-  },
-  opts = {
-    position = "center",
-    hl = "Keyword",
-  },
-}
+local function button(sc, txt, keybind, keybind_opts)
+    local sc_ = sc:gsub("%s", ""):gsub(leader, "<leader>")
 
-local buttons = {
-  type = "group",
-  val = {
-    dashboard.button("f", "󰈞  Find File", "<cmd>Telescope find_files<CR>"),
-    dashboard.button("t", "󰊄  Find Text", "<cmd>Telescope live_grep<CR>"),
-    dashboard.button("c", "  Configuration", "<cmd>edit $HOME/.dotfiles/.config/lvim/<CR>"),
-    dashboard.button("q", "󰅖  Quit", "<cmd>q<CR>"),
-  },
-  position = "center",
-  opts = {
-    spacing = 1,
-    hl_shortcut = "Include",
-  },
-}
+    local opts = {
+        position = "center",
+        shortcut = sc,
+        cursor = 3,
+        width = 50,
+        align_shortcut = "right",
+        hl_shortcut = "Keyword",
+    }
+    if keybind then
+        keybind_opts = vim.F.if_nil(keybind_opts, { noremap = true, silent = true, nowait = true })
+        opts.keymap = { "n", sc_, keybind, keybind_opts }
+    end
+
+    local function on_press()
+        local key = vim.api.nvim_replace_termcodes(keybind or sc_ .. "<Ignore>", true, false, true)
+        vim.api.nvim_feedkeys(key, "t", false)
+    end
+
+    return {
+        type = "button",
+        val = txt,
+        on_press = on_press,
+        opts = opts,
+    }
+end
 
 lvim.builtin.alpha.dashboard.config = {
   layout = {
     { type = "padding", val = 20 },
-    header,
+    {
+      type = "text",
+      val = {
+        [[                                                    ]],
+        [[ ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ]],
+        [[ ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║ ]],
+        [[ ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║ ]],
+        [[ ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║ ]],
+        [[ ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ]],
+        [[ ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ]],
+        [[                                                    ]],
+      },
+      opts = {
+        position = "center",
+        hl = "Keyword",
+      },
+    },
     { type = "padding", val = 3 },
-    buttons,
+    {
+      type = "group",
+      val = {
+        button("f", "󰈞  Find File", "<cmd>Telescope find_files<CR>"),
+        button("t", "󰊄  Find Text", "<cmd>Telescope live_grep<CR>"),
+        button("c", "  Configuration", "<cmd>edit $HOME/.dotfiles/.config/lvim/<CR>"),
+        button("q", "󰅖  Quit", "<cmd>q<CR>"),
+      },
+      position = "center",
+      opts = {
+        spacing = 1,
+        hl_shortcut = "Include",
+      },
+    },
   },
   opts = {
     margin = 7,

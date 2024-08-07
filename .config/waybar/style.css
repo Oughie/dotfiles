@@ -35,7 +35,8 @@ window {
 
 #custom-distro {
     padding-right: 15px;
-    color: #94e2d5;
+    color: #1e1e2e;
+    background: linear-gradient(to bottom right, #f5e0dc, #f5c2e7, #eba0ac);
 }
 
 #custom-reboot, #custom-shutdown {
@@ -55,7 +56,8 @@ window {
 }
 
 #workspaces button.active {
-  background: #f5c2e7;
+  color: #1e1e2e;
+  background: linear-gradient(to bottom right, #f5e0dc, #f5c2e7, #eba0ac);
 }
 
 #workspaces button:hover {

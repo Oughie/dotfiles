@@ -1,6 +1,5 @@
 lvim.plugins = {
 	{ 'catppuccin/nvim' },
-	{ 'ellisonleao/gruvbox.nvim' },
 	{ 'neovim/nvim-lspconfig' },
     { 
       'nvim-telescope/telescope.nvim',
@@ -23,11 +22,6 @@ lvim.plugins = {
 	            manual_mode = true,
             }
         end
-    },
-    {
-        'L3MON4D3/LuaSnip',
-        tag = "v2.*",
-        build = "make install_jsregexp"
     },
     {
         'saecki/crates.nvim',

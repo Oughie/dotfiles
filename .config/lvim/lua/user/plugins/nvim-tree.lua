@@ -10,5 +10,5 @@ lvim.builtin.nvimtree.setup = {
 		preserve_window_proportions = true,
 	},
 	sync_root_with_cwd = true,
-	respect_buf_cwd = false,
+    respect_buf_cwd = true,
 }

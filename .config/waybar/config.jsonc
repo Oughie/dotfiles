@@ -1,6 +1,7 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/distro", "hyprland/workspaces", "tray"],
+	"modules-left": ["custom/distro", "tray"],
+    "modules-center": ["hyprland/workspaces"],
 	"modules-right": ["clock", "pulseaudio", "memory", "cpu", "custom/reboot", "custom/shutdown"],
     "hyprland/workspaces": {
         "disable-scroll": false,

@@ -1,7 +1,6 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    // "source": "~/.dotfiles/.config/fastfetch/icons/arch_catppuccin_frappe.png",
     "source": "~/.dotfiles/.config/fastfetch/icons/arch_catppuccin_mocha.png",
   },
   "display": {
