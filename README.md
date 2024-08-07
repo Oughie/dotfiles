@@ -1,5 +1,7 @@
 # Oughie's dotfiles
 
+[![Stars](https://img.shields.io/github/stars/Oughie/dotfiles)](https://github.com/Oughie/dotfiles/stargazers)
+
 Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
 
 ---
