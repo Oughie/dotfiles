@@ -24,8 +24,8 @@ alias notes="lvim ~/Documents/NOTES.md"
 alias cat="bat"
 
 source $ZSH/oh-my-zsh.sh
-source ~/.dotfiles/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.dotfiles/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 
 . /opt/asdf-vm/asdf.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

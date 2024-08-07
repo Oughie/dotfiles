@@ -1,1 +1,0 @@
-/home/luma/.dotfiles/.config/zsh/.zshrc
