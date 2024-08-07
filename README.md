@@ -1,6 +1,6 @@
 # Oughie's dotfiles
 
-[![Stars](https://img.shields.io/github/stars/Oughie/dotfiles)](https://github.com/Oughie/dotfiles/stargazers)
+[![Stars](https://img.shields.io/github/stars/Oughie/dotfiles)](.config/Oughie/dotfiles/stargazers)
 
 Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
 
@@ -11,16 +11,15 @@ Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
 ---
 
 <p align="center">
-    <a href="https://github.com/sharkdp/bat">Bat</a> •
-    <a href="https://github.com/karlstav/cava">Cava</a> •
-    <a href="https://github.com/Oughie/clock-rs">clock-rs</a> •
-    <a href="https://github.com/dunst-project/dunst">Dunst</a> •
-    <a href="https://github.com/fastfetch-cli/fastfetch">FastFetch</a> •
-    <a href="https://github.com/hyprwm/Hyprland">Hyprland</a> •
-    <a href="https://github.com/kovidgoyal/kitty">Kitty</a> •
-    <a href="https://github.com/LunarVim/LunarVim">LunarVim</a> •
-    <a href="https://github.com/davatorium/rofi">Rofi</a> •
-    <a href="https://github.com/Alexays/Waybar">Waybar</a> •
-    <a href="https://github.com/ohmyzsh/ohmyzsh">Oh my Zsh</a> •
-    <a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a>
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/bat">Bat</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/cava">Cava</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/clock-rs">clock-rs</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/dunst">Dunst</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/fastfetch">FastFetch</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/hypr">Hyprland</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/kitty">Kitty</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/lvim">LunarVim</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/rofi">Rofi</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/waybar">Waybar</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/zsh">Oh my Zsh</a> •
 </p>
