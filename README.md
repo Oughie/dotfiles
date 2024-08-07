@@ -21,5 +21,5 @@ Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
     <a href="https://github.com/Oughie/dotfiles/tree/main/.config/lvim">LunarVim</a> •
     <a href="https://github.com/Oughie/dotfiles/tree/main/.config/rofi">Rofi</a> •
     <a href="https://github.com/Oughie/dotfiles/tree/main/.config/waybar">Waybar</a> •
-    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/zsh">Oh my Zsh</a> •
+    <a href="https://github.com/Oughie/dotfiles/tree/main/.config/zsh">Oh my Zsh</a>
 </p>
