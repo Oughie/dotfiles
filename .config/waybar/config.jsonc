@@ -51,12 +51,12 @@
         "tooltip": false,
     },
     "custom/reboot": {
-        "format": "<span font='Hack Nerd Font' color='#f5e0dc'> </span>",
+        "format": "<span font='Hack Nerd Font' color='#f5e0dc'></span>",
         "on-click": "reboot",
         "tooltip": false,
     },
     "custom/shutdown": {
-        "format": "<span font='Hack Nerd Font' color='#f5e0dc'>⏻ </span>",
+        "format": "<span font='Hack Nerd Font' color='#f5e0dc'>⏻</span>",
         "on-click": "shutdown now",
         "tooltip": false,
     }
