@@ -3,7 +3,7 @@
 swaylock \
 	--screenshots \
 	--clock \
-    --datestr "%A, %M %dth" \
+    --datestr "%A, %d %b" \
 	--indicator \
 	--indicator-radius 100 \
 	--indicator-thickness 7 \
