@@ -29,3 +29,6 @@ source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 
 . /opt/asdf-vm/asdf.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
