@@ -19,3 +19,4 @@ vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
 })
 
 lspconfig.wgsl_analyzer.setup{}
+lspconfig.clangd.setup{}
