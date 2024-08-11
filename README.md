@@ -1,6 +1,6 @@
 # Oughie's dotfiles
 
-[![Stars](https://img.shields.io/github/stars/Oughie/dotfiles)](.config/Oughie/dotfiles/stargazers)
+[![Stars](https://img.shields.io/github/stars/Oughie/dotfiles)](https://github.com/Oughie/dotfiles/stargazers)
 
 Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
 
@@ -21,6 +21,8 @@ Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
 </p>
 
 ---
-
 > [!NOTE]
-> This setup uses a German keyboard. See LunarVim's [mappings.lua](.config/lvim/lua/user/mappings.lua) file and [input.conf](.config/hypr/modules/input.conf) for Hyprland.
+> This setup uses a German keyboard. See LunarVim's [mappings.lua][mappings-lua] file and [input.conf][input-conf] for Hyprland.
+
+[mappings-lua]: https://github.com/Oughie/dotfiles/blob/main/.config/lvim/lua/user/mappings.lua?plain=1#L3-L6
+[input-conf]: https://github.com/Oughie/dotfiles/blob/7fe0b77fd02e33a068c71bb5c35dc62c51c96847/.config/hypr/modules/input.conf?plain=1#L2
