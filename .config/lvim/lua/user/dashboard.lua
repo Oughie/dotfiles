@@ -31,7 +31,7 @@ end
 
 lvim.builtin.alpha.dashboard.config = {
   layout = {
-    { type = "padding", val = 20 },
+    { type = "padding", val = math.floor(vim.fn.winheight(0)) / 2 - 5 },
     {
       type = "text",
       val = {
@@ -46,10 +46,10 @@ lvim.builtin.alpha.dashboard.config = {
       },
       opts = {
         position = "center",
-        hl = "Keyword",
+        hl = "String"
       },
     },
-    { type = "padding", val = 3 },
+    { type = "padding", val = 2 },
     {
       type = "group",
       val = {
@@ -58,16 +58,11 @@ lvim.builtin.alpha.dashboard.config = {
         button("c", "  Configuration", "<cmd>edit $HOME/.dotfiles/.config/lvim/<CR>"),
         button("q", "󰅖  Quit", "<cmd>q<CR>"),
       },
-      position = "center",
       opts = {
+        position = "center",
         spacing = 1,
         hl_shortcut = "Include",
       },
     },
-  },
-  opts = {
-    margin = 7,
-    setup = function()
-    end,
   },
 }

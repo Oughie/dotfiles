@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Unused
+
 swaylock \
 	--screenshots \
 	--clock \
