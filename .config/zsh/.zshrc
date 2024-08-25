@@ -18,7 +18,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 eval "$(zoxide init --cmd cd zsh)"
 
-alias dotfiles="lvim ~/.dotfiles"
 alias clear="printf '\033[2J\033[3J\033[1;1H'"
 alias notes="lvim ~/Documents/NOTES.md"
 alias cat="bat"

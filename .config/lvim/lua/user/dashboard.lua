@@ -31,7 +31,7 @@ end
 
 lvim.builtin.alpha.dashboard.config = {
   layout = {
-    { type = "padding", val = math.floor(vim.fn.winheight(0)) / 2 - 5 },
+    { type = "padding", val = math.max(0, math.floor(vim.fn.winheight(0) / 2) - 5) },
     {
       type = "text",
       val = {
