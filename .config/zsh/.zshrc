@@ -19,7 +19,7 @@ export ZSH="$HOME/.oh-my-zsh"
 eval "$(zoxide init --cmd cd zsh)"
 
 alias clear="printf '\033[2J\033[3J\033[1;1H'"
-alias notes="lvim ~/Documents/NOTES.md"
+alias notes="nvim ~/Documents/NOTES.md"
 alias cat="bat"
 
 source $ZSH/oh-my-zsh.sh
