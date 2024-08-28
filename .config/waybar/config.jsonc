@@ -6,7 +6,7 @@
 
     "custom/distro": {
         "format": "<span font='Hack Nerd Font' size='medium'></span>",
-        "tooltip": false,
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "disable-scroll": false,
@@ -17,47 +17,47 @@
             "default": "<span color='#f5e0dc'></span>",
             "active": "<span></span>",
             "urgent": "<span>󰗖</span>",
-            "empty": "<span color='#f5e0dc'></span>",
+            "empty": "<span color='#f5e0dc'></span>"
         },
         "persistent-workspaces": {
             "1": [],
             "2": [],
             "3": [],
             "4": [],
-            "5": [],
+            "5": []
         }
     },
     "tray": {
 		"icon-size": 18,
 		"spacing": 10,
-        "tooltip": false,
+        "tooltip": false
 	},
     "clock": {
         "format": "<span font='Hack Nerd Font' size='large' rise='-1500' color='#f5e0dc'>󰥔</span>  {:%R}",
-        "format-alt": "<span font='Hack Nerd Font' size='large' rise='-1500' color='#f5e0dc'>󰥔</span>  {:%A, %d. %b, %Y}",
+        "format-alt": "<span font='Hack Nerd Font' size='large' rise='-1500' color='#f5e0dc'>󰥔</span>  {:%A, %d. %b, %Y}"
     },
     "pulseaudio": {
         "format": "<span font='Hack Nerd Font' size='large' rise='-1500' color='#f5e0dc'></span>  <span rise='-200'>{volume}%</span>",
-        "tooltip": false,
+        "tooltip": false
     },
     "memory": {
         "interval": 5,
         "format": "<span font='Hack Nerd Font' color='#f5e0dc'></span>   <span rise='-200'>{}%</span>",
-        "tooltip": false,
+        "tooltip": false
     },
     "cpu": {
         "interval": 5,
         "format": "<span font='Hack Nerd Font' color='#f5e0dc'></span>  <span rise='-200'>{usage}%</span>",
-        "tooltip": false,
+        "tooltip": false
     },
     "custom/reboot": {
         "format": "<span font='Hack Nerd Font' color='#f5e0dc'></span>",
         "on-click": "reboot",
-        "tooltip": false,
+        "tooltip": false
     },
     "custom/shutdown": {
         "format": "<span font='Hack Nerd Font' color='#f5e0dc'>⏻</span>",
         "on-click": "shutdown now",
-        "tooltip": false,
+        "tooltip": false
     }
 }

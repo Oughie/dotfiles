@@ -1,7 +1,7 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "~/.dotfiles/.config/fastfetch/icons/arch_catppuccin_mocha.png",
+    "source": "~/.dotfiles/.config/fastfetch/icons/arch_catppuccin_mocha.png"
   },
   "display": {
     "color": "magenta",
@@ -12,24 +12,24 @@
     "break",
     {
       "type": "custom",
-      "format": " System",
+      "format": " System"
     },
     {
       "type": "title",
-      "key": " ",
+      "key": " "
 
     },
     {
       "type": "os",
-      "key": " ",
+      "key": " "
     },
     {
       "type": "kernel",
-      "key": " ",
+      "key": " "
     },
     {
       "type": "packages",
-      "key": " 󰏗",
+      "key": " 󰏗"
     },
     {
       "type": "custom",
@@ -74,11 +74,11 @@
     },
     {
       "type": "terminal",
-      "key": " ",
+      "key": " "
     },
     {
       "type": "shell",
-      "key": " ",
+      "key": " "
     },
     {
       "type": "uptime",
@@ -92,6 +92,6 @@
       "type": "custom",
       "format": " {#30}⬤ {#90}⬤ {#31}⬤ {#91}⬤ {#32}⬤ {#92}⬤ {#33}⬤ {#93}⬤ {#34}⬤ {#94}⬤ {#35}⬤ {#95}⬤ {#36}⬤ {#96}⬤ {#37}⬤ {#97}⬤ "
     },
-    "break",
+    "break"
   ]
 }
