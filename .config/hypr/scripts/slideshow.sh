@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Change the wallpaper every 5 minutes
+
 cd $HOME/.dotfiles/wallpapers/
 
 while sleep 300; do

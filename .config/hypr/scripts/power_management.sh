@@ -1,4 +1,6 @@
 #!/bin/bash
 
+# Suspend after 7 minutes of inactivity
+
 swayidle -w \
-    timeout 300 'systemctl suspend-then-hibernate'
+    timeout 420 'systemctl suspend-then-hibernate'
