@@ -4,7 +4,7 @@
 
 Personal dotfiles for [Hyprland](https://hyprland.org/) on Arch-Linux.
 
-![presentation_hyprland](screenshots/hyprland.png "Screenshot (hyprland)")
+![Presentation-Hyprland](screenshots/hyprland.png "Screenshot (hyprland)")
 
 <p align="center">
     <a href=".config/bat">Bat</a> •
