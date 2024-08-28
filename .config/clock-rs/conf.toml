@@ -1,6 +1,6 @@
 [general]
 color = "magenta"
-interval = 500
+interval = 200
 blink = false
 bold = true
 

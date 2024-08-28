@@ -1,8 +1,0 @@
-require 'user.dashboard'
-require 'user.mappings'
-require 'user.options'
-require 'user.plugins'
-require 'user.settings'
-require 'user.plugins.catppuccin'
-require 'user.plugins.nvim-tree'
-require 'user.plugins.rust-tools'
