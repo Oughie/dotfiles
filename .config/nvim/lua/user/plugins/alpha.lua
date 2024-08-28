@@ -39,10 +39,10 @@ return {
         }
 
         dashboard.section.buttons.val = {
-            dashboard.button('f', '󰈞  Find File', '<cmd>Telescope find_files<CR>'),
-            dashboard.button('t', '󰊄  Find Text', '<cmd>Telescope live_grep<CR>'),
-            dashboard.button('c', '  Configuration', '<cmd>edit $HOME/.config/nvim/<CR>'),
-            dashboard.button('q', '󰅖  Quit', '<cmd>q<CR>'),
+            dashboard.button('f', '󰈞  Find File', '<cmd>Telescope find_files<cr>'),
+            dashboard.button('t', '󰊄  Find Text', '<cmd>Telescope live_grep<cr>'),
+            dashboard.button('c', '  Configuration', '<cmd>edit $HOME/.dotfiles/.config/nvim/<cr>'),
+            dashboard.button('q', '󰅖  Quit', '<cmd>q<cr>'),
         }
 
         alpha.setup(dashboard.opts)
