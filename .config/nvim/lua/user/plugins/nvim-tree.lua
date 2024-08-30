@@ -8,7 +8,7 @@ return {
     config = function()
         require('nvim-tree').setup {
             filters = {
-                custom = { '.git' },
+                custom = { '*.git' },
             },
             update_focused_file = {
                 enable = true,

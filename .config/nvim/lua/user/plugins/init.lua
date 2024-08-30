@@ -8,6 +8,7 @@ return {
     require 'user.plugins.dap',
     require 'user.plugins.illuminate',
     require 'user.plugins.inlay-hint',
+    require 'user.plugins.lazygit',
     require 'user.plugins.lspconfig',
     require 'user.plugins.lsp-signature',
     require 'user.plugins.lualine',

@@ -3,7 +3,15 @@ return {
     config = function()
         local lspconfig = require 'lspconfig'
 
-        lspconfig.lua_ls.setup {}
+        lspconfig.lua_ls.setup {
+            settings = {
+                Lua = {
+                    diagnostics = {
+                        globals = { 'vim' },
+                    },
+                },
+            },
+        }
         lspconfig.wgsl_analyzer.setup {}
         lspconfig.clangd.setup {}
         lspconfig.jdtls.setup {}

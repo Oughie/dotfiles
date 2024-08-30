@@ -3,7 +3,7 @@ return {
     version = '*',
     dependencies = 'nvim-tree/nvim-web-devicons',
     config = function()
-        local function diagnostics_indicator(num, _, diagnostics, _)
+        local function diagnostics_indicator(_, _, diagnostics, _)
             local result = {}
             local symbols = {
                 error = '',

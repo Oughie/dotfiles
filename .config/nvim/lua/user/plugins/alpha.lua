@@ -20,8 +20,6 @@ return {
         local alpha = require 'alpha'
         local dashboard = require 'alpha.themes.dashboard'
 
-        local leader = 'SPC'
-
         dashboard.section.header.val = center_logo_vertically {
             [[                                                    ]],
             [[ ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ]],

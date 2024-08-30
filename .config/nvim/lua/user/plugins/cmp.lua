@@ -11,6 +11,7 @@ return {
     },
     config = function()
         local cmp = require 'cmp'
+        local luasnip = require 'luasnip'
 
         local kind_icons = {
             Text = '',
@@ -43,6 +44,7 @@ return {
         local opts = {
             scrollbar = false,
         }
+
         cmp.setup {
             window = {
                 completion = cmp.config.window.bordered(opts),
@@ -54,7 +56,7 @@ return {
                 end,
             },
             formatting = {
-                format = function(entry, item)
+                format = function(_, item)
                     item.kind = string.format('%s %s', kind_icons[item.kind], item.kind) -- This concatenates the icons with the name of the item kind
                     return item
                 end,
