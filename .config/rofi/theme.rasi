@@ -1,9 +1,9 @@
 * {
-    bg-col: #303446;
+    bg-col: #313244;
     bg-col-light: #303446;
-    border-col: #303446;
+    border-col: #f2cdcd91;
     selected-col: #45475a;
-    primary: #f5c2e7;
+    primary: #f2cdcd;
     fg-col: #c6d0f5;
     fg-col2: #e78284;
     grey: #737994;
@@ -18,10 +18,11 @@ element-text, element-icon, mode-switcher {
 }
 
 window {
-    height: 340px;
+    height: 310px;
     border-color: @border-col;
     background-color: @bg-col;
-    border-radius: 20px;
+    border: 6px;
+    border-radius: 15px;
 }
 
 mainbox {
@@ -36,9 +37,9 @@ inputbar {
 
 prompt {
     background-color: @primary;
-    padding: 6px;
+    padding: 8px;
     text-color: @bg-col;
-    border-radius: 3px;
+    border-radius: 15px;
     margin: 20px 0px 5px 20px;
 }
 
@@ -52,8 +53,9 @@ entry {
 listview {
     border: 0px 0px 0px;
     padding: 6px 0px 0px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
     lines: 5;
+    columns: 2;
     background-color: @bg-col;
 }
 
@@ -87,7 +89,6 @@ button {
 
 button selected {
     background-color: @bg-col;
-    text-color: @primary;
 }
 
 message {

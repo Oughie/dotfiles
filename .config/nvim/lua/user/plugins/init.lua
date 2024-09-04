@@ -1,4 +1,5 @@
 return {
+
     require 'user.plugins.alpha',
     require 'user.plugins.autopairs',
     require 'user.plugins.bufferline',

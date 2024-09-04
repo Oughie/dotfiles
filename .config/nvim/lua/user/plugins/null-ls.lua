@@ -1,5 +1,5 @@
 return {
-    'jose-elias-alvarez/null-ls.nvim',
+    'nvimtools/null-ls.nvim',
     enable = false,
     config = function()
         local null_ls = require 'null-ls'

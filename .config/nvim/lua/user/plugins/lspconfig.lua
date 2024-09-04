@@ -15,6 +15,9 @@ return {
         lspconfig.wgsl_analyzer.setup {}
         lspconfig.clangd.setup {}
         lspconfig.jdtls.setup {}
+        lspconfig.tsserver.setup {}
+        lspconfig.volar.setup {}
+        lspconfig.biome.setup {}
         lspconfig.elixirls.setup {
             cmd = { '/usr/local/bin/elixir/language-server.sh' },
         }

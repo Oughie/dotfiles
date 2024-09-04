@@ -2,7 +2,7 @@ return {
     'hrsh7th/nvim-cmp',
     dependencies = {
         { 'hrsh7th/cmp-path' },
-        { 'hrsh7th/cmp-vsnip', commit = '1ae05c6' },
+        { 'hrsh7th/cmp-vsnip',           commit = '1ae05c6' },
         { 'saadparwaiz1/cmp_luasnip' },
         { 'hrsh7th/cmp-nvim-lsp' },
         { 'hrsh7th/cmp-nvim-lua' },
@@ -12,6 +12,8 @@ return {
     config = function()
         local cmp = require 'cmp'
         local luasnip = require 'luasnip'
+
+        require('luasnip.loaders.from_vscode').lazy_load()
 
         local kind_icons = {
             Text = '',

@@ -9,7 +9,6 @@
   },
   "modules": [
     "break",
-    "break",
     {
       "type": "custom",
       "format": " System"
