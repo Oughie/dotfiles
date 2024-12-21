@@ -1,3 +1,8 @@
+> [!WARNING]
+>  ## This repository has been archived
+>  Since I have switched to NixOS and no longer use Arch Linux, I am no longer maintaining this repository.  
+>  You can find the new, maintained repository for my system configuration [here](https://github.com/Oughie/nixos-config).
+
 # Oughie's dotfiles
 
 [![Stars](https://img.shields.io/github/stars/Oughie/dotfiles)](https://github.com/Oughie/dotfiles/stargazers)
